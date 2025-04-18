@@ -1,5 +1,14 @@
 # .zsh_history
 .zsh_history
 
+.DS_Store
+
 # ignore zshrc_session
-.zsh_sessions/
+.zsh_sessions/.DS_Store
+
+# Ignore these directories
+zsh/.zsh_sessions/
+conversations/
+prompts/
+themes/
+embeddings/
